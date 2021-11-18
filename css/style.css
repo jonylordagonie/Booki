@@ -352,9 +352,9 @@ template {
  Box-sizing
  */
 * {
-   box-sizing: border-box; /* Opera/IE 8+ */
-   -moz-box-sizing: border-box; /* Firefox, autres Gecko */
-   -webkit-box-sizing: border-box; /* Safari/Chrome autres WebKit */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+  -webkit-box-sizing: border-box; /* Safari/Chrome autres WebKit */
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap");
