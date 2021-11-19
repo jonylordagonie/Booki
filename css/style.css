@@ -6,9 +6,42 @@
   -moz-box-sizing: border-box; /* Firefox, autres Gecko */
   -webkit-box-sizing: border-box; /* Safari/Chrome autres WebKit */
 }
-
+:root{
+  --bleu: #0065FC;
+  --bleu-clair: #DEEBFF;
+  --gris: #F2F2F2;
+}
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap");
 
 * {
   font-family: "Raleway", sans-serif;
+}
+
+body{
+  margin: 40px 4%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+header img{
+  width: 130px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav li{
+  margin-left: 48px;
+}
+nav a{
+  text-decoration: none;
+  color: #000000;
+  padding-top: 53px;
+}
+nav a:hover{
+  color: var(--bleu);
+  border-top: 2px solid var(--bleu);
+
 }
