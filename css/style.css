@@ -1,6 +1,7 @@
 /*
  Box-sizing
  */
+ @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap");
 
 * {
   box-sizing: border-box; /* Opera/IE 8+ */
@@ -13,7 +14,7 @@
   --bleu-clair: #deebff;
   --gris: #f2f2f2;
 }
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap");
+
 
 * {
   font-family: "Raleway", sans-serif;
@@ -109,6 +110,7 @@ main{
 }
 .button_recherche:hover{
   cursor: pointer;
+  box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 .filtre{
   display: flex;
