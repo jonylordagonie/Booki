@@ -1,7 +1,7 @@
 /*
  Box-sizing
  */
- @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap");
 
 * {
   box-sizing: border-box; /* Opera/IE 8+ */
@@ -14,7 +14,6 @@
   --bleu-clair: #deebff;
   --gris: #f2f2f2;
 }
-
 
 * {
   font-family: "Raleway", sans-serif;
@@ -37,7 +36,7 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-nav li{
+nav li {
   display: flex;
 }
 nav a {
@@ -45,31 +44,32 @@ nav a {
   color: #000000;
   font-weight: 500;
   padding: 50px;
-  border-top: 2px solid #ffffff ;
+  border-top: 2px solid #ffffff;
 }
-nav a:hover {
+header a:hover,
+a:focus {
   color: var(--bleu);
   border-top: 2px solid;
 }
 
 /* ---------------- Section recherche ---------------- */
-main{
- max-width: 1536px;
- margin: 0 auto;
+main {
+  max-width: 1536px;
+  margin: 0 auto;
 }
-.recherche h1{
+.recherche h1 {
   font-size: 24px;
 }
-.recherche p{
+.recherche p {
   margin-top: 10px;
   font-size: 18px;
 }
-.barre_recherche{
+.barre_recherche {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
-.barre_recherche i{
+.barre_recherche i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +79,7 @@ main{
   margin: 0px;
   border-radius: 20px 0px 0px 20px;
 }
-#search{
+#search {
   border: none;
   border-top: 2px solid var(--gris);
   border-bottom: 2px solid var(--gris);
@@ -89,14 +89,14 @@ main{
   font-weight: 700;
   color: #000000;
 }
-#search::placeholder{
+#search::placeholder {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: #000000;
   padding: 14px;
 }
-.button_recherche{
+.button_recherche {
   background-color: var(--bleu);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -108,19 +108,19 @@ main{
   width: 150px;
   padding: 0px 20px;
 }
-.button_recherche:hover{
+.button_recherche:hover {
   cursor: pointer;
-  box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
-.filtre{
+.filtre {
   display: flex;
   align-items: center;
   margin-top: 35px;
 }
-.filtre h3{
+.filtre h3 {
   margin: 0px 10px;
 }
-.filtres{
+.filtres {
   display: flex;
   align-items: center;
   margin: 0px;
@@ -130,13 +130,13 @@ main{
   border-radius: 50px;
   border-left: none;
 }
-.filtres label{
+.filtres label {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  padding-right:10px;
+  padding-right: 10px;
 }
-.filtres i{
+.filtres i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,19 +147,19 @@ main{
   border-radius: 50px;
 }
 
-.filtres:hover{
+.filtres:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
-.filtres input:checked + label{
+.filtres input:checked + label {
   color: var(--bleu);
 }
-.info{
+.info {
   display: flex;
   align-items: center;
   margin-top: 40px;
 }
-.info i{
+.info i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,130 +172,130 @@ main{
 }
 
 /* ---------------- section hebergement ---------------- */
-.hebergements{
+.hebergements {
   display: flex;
   margin-top: 40px;
 }
-.hebergement{
+.hebergement {
   background-color: var(--gris);
   border-radius: 20px;
   padding: 45px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-right: 30px ;
+  margin-right: 30px;
 }
-.hebergement h1{
+.hebergement h1 {
   display: flex;
   margin: 0;
   padding: 5px 10px;
   width: 100%;
   font-size: 24px;
 }
-.hebergement_marseille{
+.hebergement_marseille {
   display: flex;
   flex-direction: column;
   padding: 5px;
   background-color: #ffffff;
   border-radius: 20px;
-  box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
   height: 220px;
 }
-.hebergement_marseille:hover{
+.hebergement_marseille:hover {
   transform: scale(1.1);
-  cursor: pointer; 
+  cursor: pointer;
 }
-.hebergement_marseille img{
+.hebergement_marseille img {
   display: flex;
   border-radius: 20px 20px 0px 0px;
   width: 265px;
   height: 130px;
   object-fit: cover;
 }
-.hebergement_marseille h3{
+.hebergement_marseille h3 {
   display: flex;
   padding: 5px 10px;
   margin: 0px;
 }
-.hebergement_marseille p{
+.hebergement_marseille p {
   display: flex;
   padding: 5px 10px;
   margin: 0px;
 }
-.etoile{
+.etoile {
   display: flex;
   padding: 5px 10px;
 }
-.etoile i{
+.etoile i {
   color: var(--bleu);
 }
-.etoile .vide{
-  color:rgb(207, 207, 207);
+.etoile .vide {
+  color: rgb(207, 207, 207);
 }
-.hebergement button{
+.hebergement button {
   border: none;
   font-weight: 700;
   font-size: 20px;
   cursor: pointer;
 }
-.populaires{
+.populaires {
   margin-right: 0px;
   width: 1000px;
 }
-.titre_populaire h1{
-margin: 0px;
-font-size: 24px;
+.titre_populaire h1 {
+  margin: 0px;
+  font-size: 24px;
 }
-.titre_populaire{
+.titre_populaire {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
 }
-.hebergement_populaire{
+.hebergement_populaire {
   padding: 5px;
   background-color: #ffffff;
   border-radius: 20px;
   width: 100%;
   margin-bottom: 40px;
   display: flex;
-  box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
 }
-.hebergement_populaire:hover{
+.hebergement_populaire:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
-.hebergement_populaire img{
+.hebergement_populaire img {
   border-radius: 20px 0px 0px 20px;
   width: 37%;
   height: 160px;
   object-fit: cover;
 }
-.info_pop{
+.info_pop {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.desc_pop{
+.desc_pop {
   padding: 5px 20px;
 }
-.desc_pop h3{
+.desc_pop h3 {
   margin-bottom: 10px;
 }
-.activite{
+.activite {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
-.activite h1{
+.activite h1 {
   font-size: 24px;
 }
-.column_container{
+.column_container {
   display: flex;
   justify-content: space-between;
 }
-.column{
+.column {
   padding: 5px;
   border-radius: 20px;
   display: flex;
@@ -304,52 +304,52 @@ font-size: 24px;
   width: 22%;
   height: 510px;
 }
-.act{
-  box-shadow: 0px 0px 26px -1px rgba(0,0,0,0.2);
+.act {
+  box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.act:hover{
+.act:hover {
   transform: scale(1.1);
-  cursor: pointer;  
+  cursor: pointer;
 }
-.act img{
+.act img {
   border-radius: 20px 20px 0px 0px;
   height: 85%;
   object-fit: cover;
   display: flex;
   align-items: center;
 }
-.small{
+.small {
   height: 45%;
 }
-.column h3{
+.column h3 {
   padding: 0px;
   margin: 0px;
 }
-footer{
+footer {
   background-color: var(--gris);
   margin-top: 60px;
 }
-.footer_container{
- max-width: 1536px;
- margin: 0 auto;
- padding: 60px 0px;
- display: flex;
- height: 200px;
+.footer_container {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  height: 200px;
 }
-.footer_column h3{
+.footer_column h3 {
   margin: 0px;
   padding: 0px 0px 20px 0px;
 }
-.footer_column{
+.footer_column {
   display: flex;
   flex-direction: column;
   width: 33%;
 }
-.footer_column a{
+.footer_column a {
   color: #000000;
   text-decoration: none;
   padding: 0px 0px 20px 0px;
