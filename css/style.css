@@ -46,10 +46,9 @@ nav a {
   padding: 50px;
   border-top: 2px solid #ffffff;
 }
-header a:hover,
-a:focus {
-  color: var(--bleu);
-  border-top: 2px solid;
+header a:hover, a:focus{
+  color: var(--bleu) !important;
+  border-top: 2px solid !important;
 }
 
 /* ---------------- Section recherche ---------------- */
@@ -317,17 +316,32 @@ main {
 }
 .act img {
   border-radius: 20px 20px 0px 0px;
-  height: 85%;
+  height: 91%;
   object-fit: cover;
   display: flex;
   align-items: center;
 }
+.trois{
+  height: 55%;
+}
+.trois img{
+  height: 85%;
+} 
+.quart{
+  height: 35%;
+}
+.quart img{
+  height: 75%;
+}
 .small {
   height: 45%;
 }
+.small img{
+  height: 80%;
+}
 .column h3 {
   padding: 0px;
-  margin: 0px;
+  margin: 10px 15px;
 }
 footer {
   background-color: var(--gris);
