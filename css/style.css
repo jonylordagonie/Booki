@@ -308,6 +308,7 @@ main {
   margin: 0px;
   padding: 0px;
 }
+/* ---------------- section activités ---------------- */
 .activite {
   margin-top: 50px;
   display: flex;
@@ -371,6 +372,7 @@ main {
   padding: 0px;
   margin: 0px 20px;
 }
+/* ---------------- Footer ---------------- */
 footer {
   background-color: var(--gris);
   margin-top: 60px;
