@@ -69,7 +69,7 @@ main {
   align-items: center;
   margin-top: 20px;
 }
-.barre_recherche i {
+.fa-map-marker-alt{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +106,15 @@ main {
   border: none;
   height: 60px;
   width: 150px;
-  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button_recherche p{
+  margin: 0px;
+}
+.button_recherche i{
+  display: none;
 }
 .button_recherche:hover {
   cursor: pointer;

@@ -30,6 +30,17 @@ header li:hover, .active{
 .recherche{
   margin: 0px 3%;
 }
+.button_recherche{
+    width: 60px;
+    border-radius: 20px;
+}
+.button_recherche i{
+  display: flex;
+}
+.button_recherche p{
+  display: none;
+  background-color: inherit;
+}
 .filtre h3{
   width: 100%;
 }
