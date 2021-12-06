@@ -34,7 +34,7 @@ header li:hover,
 #search {
   width: 60%;
 }
-.fa-map-marker-alt {
+.recherche .map{
   width: 20%;
   max-width: 60px;
 }
