@@ -70,7 +70,7 @@ main {
   align-items: center;
   margin-top: 20px;
 }
-.recherche .barre_recherche .fa-map-marker-alt {
+.recherche .map{
   display: flex;
   justify-content: center;
   align-items: center;
