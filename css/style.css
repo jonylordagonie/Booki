@@ -25,6 +25,7 @@ header {
   align-items: center;
   max-width: 1536px;
   margin: 0 auto;
+  padding: 0px 10px;
   margin-bottom: 20px;
 }
 header img {
@@ -46,7 +47,8 @@ nav a {
   padding: 50px;
   border-top: 2px solid #ffffff;
 }
-header a:hover, a:focus{
+header a:hover,
+.active {
   color: var(--bleu) !important;
   border-top: 2px solid !important;
 }
@@ -55,6 +57,7 @@ header a:hover, a:focus{
 main {
   max-width: 1536px;
   margin: 0 auto;
+  padding: 0px 10px;
 }
 .recherche h1 {
   font-size: 24px;
@@ -115,6 +118,7 @@ main {
   display: flex;
   align-items: center;
   margin-top: 35px;
+  flex-wrap: wrap;
 }
 .filtre h3 {
   margin: 0px 10px;
@@ -124,6 +128,7 @@ main {
   align-items: center;
   margin: 0px;
   margin-left: 40px;
+  margin-bottom: 40px;
   padding: 0px;
   border: 2px solid var(--gris);
   border-radius: 50px;
@@ -156,7 +161,6 @@ main {
 .info {
   display: flex;
   align-items: center;
-  margin-top: 40px;
 }
 .info i {
   display: flex;
@@ -178,7 +182,7 @@ main {
 .hebergement {
   background-color: var(--gris);
   border-radius: 20px;
-  padding: 45px;
+  padding: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -198,7 +202,8 @@ main {
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
-  height: 220px;
+  width: 30%;
+  margin-bottom: 20px;
 }
 .hebergement_marseille:hover {
   transform: scale(1.1);
@@ -207,23 +212,28 @@ main {
 .hebergement_marseille img {
   display: flex;
   border-radius: 20px 20px 0px 0px;
-  width: 265px;
+  width: 100%;
   height: 130px;
   object-fit: cover;
 }
+.desc_hb {
+  margin: 5px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  justify-content: space-between;
+}
 .hebergement_marseille h3 {
   display: flex;
-  padding: 5px 10px;
   margin: 0px;
+  padding: 0px;
 }
 .hebergement_marseille p {
-  display: flex;
-  padding: 5px 10px;
   margin: 0px;
+  padding: 0px;
 }
 .etoile {
   display: flex;
-  padding: 5px 10px;
 }
 .etoile i {
   color: var(--bleu);
@@ -236,10 +246,12 @@ main {
   font-weight: 700;
   font-size: 20px;
   cursor: pointer;
+  display: flex;
+  width: 100%;
 }
 .populaires {
   margin-right: 0px;
-  width: 1000px;
+  width: 50%;
 }
 .titre_populaire h1 {
   margin: 0px;
@@ -249,7 +261,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 30px;
 }
 .hebergement_populaire {
@@ -257,6 +269,8 @@ main {
   background-color: #ffffff;
   border-radius: 20px;
   width: 100%;
+  min-width: 200px;
+  max-height: 170px;
   margin-bottom: 40px;
   display: flex;
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
@@ -268,19 +282,21 @@ main {
 .hebergement_populaire img {
   border-radius: 20px 0px 0px 20px;
   width: 37%;
-  height: 160px;
   object-fit: cover;
 }
 .info_pop {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.desc_pop {
   padding: 5px 20px;
 }
 .desc_pop h3 {
-  margin-bottom: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+.desc_pop p {
+  margin: 0px;
+  padding: 0px;
 }
 .activite {
   margin-top: 50px;
@@ -300,7 +316,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 22%;
+  width: 23%;
   height: 510px;
 }
 .act {
@@ -316,32 +332,34 @@ main {
 }
 .act img {
   border-radius: 20px 20px 0px 0px;
-  height: 91%;
+  height: 425px;
   object-fit: cover;
   display: flex;
-  align-items: center;
 }
-.trois{
+.trois {
   height: 55%;
 }
-.trois img{
-  height: 85%;
-} 
-.quart{
+.trois img {
+  height: 73%;
+}
+.quart {
   height: 35%;
 }
-.quart img{
-  height: 75%;
+.quart img {
+  height: 57%;
 }
 .small {
   height: 45%;
 }
-.small img{
-  height: 80%;
+.small img {
+  height: 67%;
 }
 .column h3 {
+  display: flex;
+  align-items: center;
+  height: 100%;
   padding: 0px;
-  margin: 10px 15px;
+  margin: 0px 20px;
 }
 footer {
   background-color: var(--gris);
@@ -350,9 +368,8 @@ footer {
 .footer_container {
   max-width: 1536px;
   margin: 0 auto;
-  padding: 60px 0px;
+  padding: 60px 10px;
   display: flex;
-  height: 200px;
 }
 .footer_column h3 {
   margin: 0px;
@@ -366,5 +383,5 @@ footer {
 .footer_column a {
   color: #000000;
   text-decoration: none;
-  padding: 0px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
 }
