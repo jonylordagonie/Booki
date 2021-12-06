@@ -10,6 +10,7 @@
 .hebergement{
   margin: 0;
   margin-bottom: 40px;
+  background-color: #ffffff;
 }
 .hebergement_marseille{
   width: 45%;
@@ -21,8 +22,7 @@
 .populaires{
   width: 100%;
   order: -1;
-  background-color: #ffffff
-  ;
+  background-color: var(--gris);
 }
 .activite{
   margin-top: 0px;

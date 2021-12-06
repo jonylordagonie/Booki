@@ -45,12 +45,10 @@ nav a {
   color: #000000;
   font-weight: 500;
   padding: 50px;
-  border-top: 2px solid #ffffff;
 }
-header a:hover,
-.active {
-  color: var(--bleu) !important;
-  border-top: 2px solid !important;
+header li:hover, .active {
+  color: var(--bleu);
+  border-top: 2px solid;
 }
 
 /* ---------------- Section recherche ---------------- */
@@ -218,7 +216,7 @@ main {
   object-fit: cover;
 }
 .desc_hb {
-  margin: 5px 10px 0px 10px;
+  margin: 5px 10px;
   display: flex;
   flex-direction: column;
   height: 45%;
@@ -251,6 +249,7 @@ main {
   width: 100%;
   align-self: center;
   margin-top: 10px;
+  background-color: inherit;
 }
 .populaires {
   margin-right: 0px;
