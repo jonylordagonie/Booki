@@ -31,6 +31,9 @@ header li:hover,
 .recherche {
   margin: 0px 3%;
 }
+#search{
+  width: 75%;
+}
 .button_recherche {
   width: 60px;
   border-radius: 20px;
