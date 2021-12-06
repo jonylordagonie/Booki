@@ -182,7 +182,7 @@ main {
 .hebergement {
   background-color: var(--gris);
   border-radius: 20px;
-  padding: 5%;
+  padding: 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -191,6 +191,7 @@ main {
 .hebergement h1 {
   display: flex;
   margin: 0;
+  margin-bottom: 30px;
   padding: 5px 10px;
   width: 100%;
   font-size: 24px;
@@ -248,10 +249,12 @@ main {
   cursor: pointer;
   display: flex;
   width: 100%;
+  align-self: center;
+  margin-top: 10px;
 }
 .populaires {
   margin-right: 0px;
-  width: 50%;
+  width: 55%;
 }
 .titre_populaire h1 {
   margin: 0px;
@@ -270,7 +273,7 @@ main {
   border-radius: 20px;
   width: 100%;
   min-width: 200px;
-  max-height: 170px;
+  height: 170px;
   margin-bottom: 40px;
   display: flex;
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
@@ -292,6 +295,7 @@ main {
 }
 .desc_pop h3 {
   margin: 0px;
+  margin-bottom: 10px;
   padding: 0px;
 }
 .desc_pop p {
@@ -309,6 +313,7 @@ main {
 .column_container {
   display: flex;
   justify-content: space-between;
+  height: 510px;
 }
 .column {
   padding: 5px;
@@ -317,7 +322,6 @@ main {
   flex-direction: column;
   justify-content: space-between;
   width: 23%;
-  height: 510px;
 }
 .act {
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
@@ -332,7 +336,7 @@ main {
 }
 .act img {
   border-radius: 20px 20px 0px 0px;
-  height: 425px;
+  height: 85%;
   object-fit: cover;
   display: flex;
 }

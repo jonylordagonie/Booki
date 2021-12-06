@@ -3,3 +3,30 @@
   --bleu-clair: #deebff;
   --gris: #f2f2f2;
 }
+.hebergements{
+  flex-wrap: wrap;
+  width: 100%;
+}
+.hebergement{
+  margin: 0;
+  margin-bottom: 40px;
+}
+.hebergement_marseille{
+  width: 45%;
+  min-height: 250px;
+}
+.hebergement button{
+  justify-content: center;
+}
+.populaires{
+  width: 100%;
+  order: -1;
+  background-color: #ffffff
+  ;
+}
+.activite{
+  margin-top: 0px;
+}
+.column_container{
+  height: 350px;
+}
