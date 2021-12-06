@@ -31,7 +31,7 @@ header li:hover,
 .recherche {
   margin: 0px 3%;
 }
-#search{
+#search {
   width: 60%;
 }
 .fa-map-marker-alt {
@@ -66,13 +66,13 @@ main {
   width: 100%;
 }
 .hebergement_marseille img {
-  height: 250px;
+  height: 200px;
 }
 .hebergement button {
   justify-content: flex-start;
 }
 .desc_hb {
-  height: 100px;
+  height: 70px;
 }
 .activite {
   padding: 0px 3%;
