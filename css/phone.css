@@ -32,11 +32,16 @@ header li:hover,
   margin: 0px 3%;
 }
 #search{
-  width: 75%;
+  width: 60%;
+}
+.fa-map-marker-alt {
+  width: 20%;
+  max-width: 60px;
 }
 .button_recherche {
-  width: 60px;
+  width: 20%;
   border-radius: 20px;
+  max-width: 60px;
 }
 .button_recherche i {
   display: flex;
