@@ -46,7 +46,8 @@ nav a {
   font-weight: 500;
   padding: 50px;
 }
-header li:hover, .active {
+header li:hover,
+.active {
   color: var(--bleu);
   border-top: 2px solid;
 }
@@ -69,7 +70,7 @@ main {
   align-items: center;
   margin-top: 20px;
 }
-.fa-map-marker-alt{
+.fa-map-marker-alt {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,10 +111,10 @@ main {
   justify-content: center;
   align-items: center;
 }
-.button_recherche p{
+.button_recherche span {
   margin: 0px;
 }
-.button_recherche i{
+.button_recherche i {
   display: none;
 }
 .button_recherche:hover {
