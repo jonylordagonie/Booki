@@ -70,7 +70,7 @@ main {
   align-items: center;
   margin-top: 20px;
 }
-.recherche .map{
+.recherche .map {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +119,7 @@ main {
 }
 .button_recherche:hover {
   cursor: pointer;
-  box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: inset 4px 4px 15px 0px #000000;
 }
 .filtre {
   display: flex;
@@ -133,9 +133,7 @@ main {
 .filtres {
   display: flex;
   align-items: center;
-  margin: 0px;
-  margin-left: 40px;
-  margin-bottom: 40px;
+  margin: 0px 0px 40px 40px;
   padding: 0px;
   border: 2px solid var(--gris);
   border-radius: 50px;
