@@ -53,9 +53,6 @@ header li:hover,
 .filtre h3 {
   width: 100%;
 }
-.filtres {
-  margin: 10px 20px 10px 0px;
-}
 main {
   padding: 0px;
 }
@@ -72,7 +69,7 @@ main {
   justify-content: flex-start;
 }
 .desc_hb {
-  height: 70px;
+  margin: 10px;
 }
 .activite {
   padding: 0px 3%;
@@ -92,7 +89,7 @@ main {
   height: 200px;
 }
 .act {
-  margin: 10px;
+  margin: 10px 0px;
 }
 .column h3 {
   margin: 30px 20px;
