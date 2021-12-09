@@ -19,6 +19,9 @@
 .hebergement_marseille img {
   height: 200px;
 }
+.hebergement_marseille:hover {
+  transform: scale(1.05);
+}
 .hebergement button {
   justify-content: center;
 }
@@ -27,9 +30,15 @@
   order: -1;
   background-color: var(--gris);
 }
+.hebergement_populaire:hover {
+  transform: scale(1.05);
+}
 .activite {
   margin-top: 0px;
   padding: 0px 3%;
+}
+.act:hover {
+  transform: scale(1.05);
 }
 .column_container {
   height: 350px;
