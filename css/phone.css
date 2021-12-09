@@ -9,7 +9,7 @@ header {
 }
 header img {
   display: flex;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 nav {
   width: 100%;
