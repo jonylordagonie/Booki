@@ -384,7 +384,7 @@ footer {
 .footer_container {
   max-width: 1536px;
   margin: 0 auto;
-  padding: 60px 3%;
+  padding: 60px 10px;
   display: flex;
 }
 .footer_column h3 {

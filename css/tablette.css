@@ -29,7 +29,11 @@
 }
 .activite {
   margin-top: 0px;
+  padding: 0px 3%;
 }
 .column_container {
   height: 350px;
+}
+.footer_container {
+  margin: 0px 3%;
 }
