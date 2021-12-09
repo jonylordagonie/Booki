@@ -63,7 +63,7 @@ main {
   width: 100%;
 }
 .hebergement_marseille img {
-  height: 200px;
+  height: 130px;
 }
 .hebergement button {
   justify-content: flex-start;
@@ -90,6 +90,9 @@ main {
 }
 .act {
   margin: 10px 0px;
+}
+.act img {
+  height: 130px;
 }
 .column h3 {
   margin: 30px 20px;

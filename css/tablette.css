@@ -16,6 +16,9 @@
   width: 45%;
   min-height: 250px;
 }
+.hebergement_marseille img {
+  height: 200px;
+}
 .hebergement button {
   justify-content: center;
 }
