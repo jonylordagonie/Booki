@@ -139,11 +139,14 @@ main {
   border-radius: 50px;
   border-left: none;
 }
+.filtres input {
+  position: absolute;
+}
 .filtres label {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  padding-right: 10px;
+  padding: 0px 10px;
 }
 .filtres i {
   display: flex;
@@ -207,14 +210,20 @@ main {
   font-size: 24px;
 }
 .hebergement_marseille {
+  width: 30%;
+}
+.hebergement_marseille a {
   display: flex;
   flex-direction: column;
   padding: 5px;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
-  width: 30%;
   margin-bottom: 20px;
+}
+.hebergement_marseille a {
+  text-decoration: none;
+  color: #000000;
 }
 .hebergement_marseille:hover {
   transform: scale(1.1);
@@ -279,15 +288,20 @@ main {
   margin-bottom: 30px;
 }
 .hebergement_populaire {
-  padding: 5px;
-  background-color: #ffffff;
-  border-radius: 20px;
   width: 100%;
   min-width: 200px;
   height: 170px;
   margin-bottom: 40px;
+}
+.hebergement_populaire a {
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 170px;
   display: flex;
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #000000;
 }
 .hebergement_populaire:hover {
   transform: scale(1.1);
@@ -335,11 +349,16 @@ main {
   width: 23%;
 }
 .act {
+  height: 100%;
+}
+.act a {
   box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   height: 100%;
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: #000000;
 }
 .act:hover {
   transform: scale(1.1);
@@ -372,9 +391,9 @@ main {
 .column h3 {
   display: flex;
   align-items: center;
-  height: 100%;
+  height: 80px;
   padding: 0px;
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 /* ---------------- Footer ---------------- */
 footer {

@@ -50,6 +50,12 @@ header li:hover,
   display: none;
   background-color: inherit;
 }
+.filtres {
+  margin-right: 5px;
+}
+.filtres label {
+  font-size: 15px;
+}
 .filtre h3 {
   width: 100%;
 }
